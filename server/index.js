@@ -28,6 +28,7 @@ app.get("/",function(req,res)
   res.render("index"); //Tell Express which html file to render for this route
 });
 
+// sendmail npm
 app.post('/login',function(req,res)
 {
   sendmail({
